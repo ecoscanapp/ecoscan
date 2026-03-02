@@ -17,7 +17,7 @@ const ImpactSection = () => {
           <div className="text-center mb-10 sm:mb-16">
             <span className="text-primary-foreground/70 font-semibold text-sm uppercase tracking-widest">Въздействие</span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-3 text-primary-foreground">
-              Нашето въздействие в цифри
+              Нашето въздействие в номера
             </h2>
           </div>
         </FadeInSection>
