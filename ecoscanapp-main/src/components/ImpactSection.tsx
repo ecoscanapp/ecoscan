@@ -3,10 +3,10 @@ import AnimatedCounter from "./AnimatedCounter";
 import FadeInSection from "./FadeInSection";
 
 const stats = [
-  { icon: Users, value: 5200, suffix: "+", label: "Активни потребители" },
-  { icon: Trash2, value: 38000, suffix: " кг", label: "Събрани отпадъци" },
-  { icon: Flag, value: 1450, suffix: "", label: "Отчетени сигнали" },
-  { icon: MapPin, value: 320, suffix: "+", label: "Покрити контейнери" },
+  { icon: Users, value: 10, suffix: "+", label: "Активни потребители" },
+  { icon: Trash2, value: 2, suffix: " кг", label: "Събрани отпадъци" },
+  { icon: Flag, value: 5, suffix: "", label: "Отчетени сигнали" },
+  { icon: MapPin, value: 100, suffix: "+", label: "Покрити контейнери" },
 ];
 
 const ImpactSection = () => {
