@@ -37,10 +37,10 @@ const SolutionSection = () => {
           </div>
         </FadeInSection>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
           {solutions.map((s, i) => (
             <FadeInSection key={i} delay={i * 100}>
-              <div className="bg-card rounded-2xl p-5 sm:p-7 border border-border hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group text-center h-full">
+              <div className="bg-card rounded-2xl p-4 sm:p-7 border border-border hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group text-center h-full min-w-0">
                 <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-3 sm:mb-5 group-hover:bg-primary/20 transition-colors">
                   <s.icon className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
                 </div>

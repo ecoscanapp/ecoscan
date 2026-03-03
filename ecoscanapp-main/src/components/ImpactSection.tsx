@@ -22,14 +22,14 @@ const ImpactSection = () => {
           </div>
         </FadeInSection>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 max-w-4xl mx-auto">
           {stats.map((s, i) => (
             <FadeInSection key={i} delay={i * 150}>
               <div className="text-center">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary-foreground/15 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <s.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary-foreground" />
                 </div>
-                <div className="text-2xl sm:text-3xl md:text-4xl font-black text-primary-foreground mb-1">
+                <div className="text-xl sm:text-3xl md:text-4xl font-black text-primary-foreground mb-1 break-words">
                   <AnimatedCounter end={s.value} suffix={s.suffix} />
                 </div>
                 <p className="text-primary-foreground/70 text-xs sm:text-sm font-medium">{s.label}</p>

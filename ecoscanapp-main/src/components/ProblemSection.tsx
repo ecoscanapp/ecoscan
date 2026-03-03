@@ -35,7 +35,7 @@ const ProblemSection = () => {
         <div className="grid gap-5 sm:gap-8 md:grid-cols-3 max-w-5xl mx-auto">
           {problems.map((p, i) => (
             <FadeInSection key={i} delay={i * 150}>
-              <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-xl transition-shadow border border-border group hover:-translate-y-1 transition-transform duration-300">
+              <div className="bg-card rounded-2xl p-5 sm:p-8 shadow-lg hover:shadow-xl transition-shadow border border-border group hover:-translate-y-1 transition-transform duration-300">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-destructive/10 flex items-center justify-center mb-4 sm:mb-5 group-hover:scale-110 transition-transform">
                   <p.icon className="w-6 h-6 sm:w-7 sm:h-7 text-destructive" />
                 </div>

@@ -89,10 +89,12 @@
   body {
     @apply bg-background text-foreground font-sans;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
   }
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 }
 

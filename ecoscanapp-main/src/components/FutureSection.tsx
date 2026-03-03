@@ -21,10 +21,10 @@ const FutureSection = () => {
           </div>
         </FadeInSection>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
           {plans.map((p, i) => (
             <FadeInSection key={i} delay={i * 100}>
-              <div className="bg-card rounded-2xl p-5 sm:p-7 border border-border text-center hover:-translate-y-1 transition-transform duration-300 hover:shadow-lg h-full">
+              <div className="bg-card rounded-2xl p-4 sm:p-7 border border-border text-center hover:-translate-y-1 transition-transform duration-300 hover:shadow-lg h-full min-w-0">
                 <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <p.icon className="w-6 h-6 sm:w-7 sm:h-7 text-primary" />
                 </div>

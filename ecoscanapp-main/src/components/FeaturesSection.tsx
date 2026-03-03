@@ -23,10 +23,10 @@ const FeaturesSection = () => {
           </div>
         </FadeInSection>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
           {features.map((f, i) => (
             <FadeInSection key={i} delay={i * 80}>
-              <div className="bg-card rounded-2xl p-5 sm:p-7 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg group h-full">
+              <div className="bg-card rounded-2xl p-4 sm:p-7 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg group h-full min-w-0">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-3 sm:mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <f.icon className="w-5 h-5 sm:w-6 sm:h-6 text-primary group-hover:text-primary-foreground transition-colors" />
                 </div>

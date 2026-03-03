@@ -25,7 +25,7 @@ const DownloadSection = () => {
               href="https://github.com/mirn4o24/ecoscanapp-main/releases/download/v1.0/Eco_Scan.apk"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-bold hover:opacity-90 transition-all hover:scale-105 eco-glow"
+              className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-6 sm:px-10 py-4 sm:py-5 rounded-2xl text-base sm:text-lg font-bold hover:opacity-90 transition-all hover:scale-105 eco-glow"
             >
               <Download className="w-6 h-6" />
               Download APK

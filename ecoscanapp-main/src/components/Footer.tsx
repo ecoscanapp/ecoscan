@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-eco-dark text-primary-foreground/80">
       <div className="container mx-auto py-10 sm:py-16 px-4">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 text-primary-foreground font-bold text-xl mb-4">
@@ -43,15 +43,15 @@ const Footer = () => {
             <h4 className="font-bold text-primary-foreground mb-4">Контакти</h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary" />
+                <Mail className="w-4 h-4 text-primary shrink-0" />
                 contact@ecoscan.bg
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary" />
+                <Phone className="w-4 h-4 text-primary shrink-0" />
                 +359 88 123 4567
               </li>
               <li className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-primary" />
+                <MapPin className="w-4 h-4 text-primary shrink-0" />
                 София, България
               </li>
             </ul>
