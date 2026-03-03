@@ -24,17 +24,6 @@ const HowItWorksSection = () => {
         </FadeInSection>
 
         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
-          {/* Phone mockup */}
-          <FadeInSection className="flex-shrink-0">
-            <div className="relative">
-              <img
-                src={phoneMockup}
-                alt="Eco Scan App"
-                className="w-64 md:w-72 animate-float drop-shadow-2xl"
-              />
-            </div>
-          </FadeInSection>
-
           {/* Steps */}
           <div className="flex-1 space-y-6">
             {steps.map((step, i) => (
