@@ -44,15 +44,15 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                contact@ecoscan.bg
+                mirotodorov24@gmail.com
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                +359 88 123 4567
+                +359 88 216 5585
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                София, България
+                Ямбол, България
               </li>
             </ul>
           </div>
